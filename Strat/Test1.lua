@@ -108,7 +108,7 @@ UpgradeTower(-12.571, -0.267)
 UpgradeTower(-12.571, -0.267)
 UpgradeTower(-12.571, -0.267)
 
-AutoSkipVote()
+
 
 PlaceTower("Accelerator", -9.173, 1.000, -3.588)
 UpgradeTower(-9.173, -3.588)
@@ -134,6 +134,7 @@ UpgradeTower(-12.924, 3.619)
 
 UpgradeTower(19.691, 12.294)
 --
+StopAutoSkipVote()
 AutoChainAPC({{-18.344, -9.136}, {-18.116, -6.074}, {-18.191, -3.000}})
 --
 
