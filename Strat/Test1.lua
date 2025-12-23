@@ -92,7 +92,7 @@ UpgradeTower(-18.191, -3.000)
 UpgradeTower(-18.191, -3.000)
 --
 
-AutoChainAPC({{-18.344, -9.136}, {-18.116, -6.074}, {-18.191, -3.000}})
+
 --
 
 PlaceTower("Accelerator", -12.207, 1.000, -3.412)
@@ -107,6 +107,8 @@ UpgradeTower(-12.571, -0.267)
 UpgradeTower(-12.571, -0.267)
 UpgradeTower(-12.571, -0.267)
 UpgradeTower(-12.571, -0.267)
+
+AutoSkipVote()
 
 PlaceTower("Accelerator", -9.173, 1.000, -3.588)
 UpgradeTower(-9.173, -3.588)
@@ -132,7 +134,7 @@ UpgradeTower(-12.924, 3.619)
 
 UpgradeTower(19.691, 12.294)
 --
-
+AutoChainAPC({{-18.344, -9.136}, {-18.116, -6.074}, {-18.191, -3.000}})
 --
 
 UpgradeTower(24.384, 12.777)
@@ -140,7 +142,7 @@ UpgradeTower(24.384, 12.777)
 UpgradeTower(25.020, 19.354)
 UpgradeTower(25.020, 19.354)
 SetTower("Unit 3", "Field Medic", 25.020, 19.354, 5)
-AutoSkipVote()
+
 UpgradeTower(19.691, 12.294)
 UpgradeTower(24.384, 12.777)
 UpgradeTower(25.020, 19.354)
