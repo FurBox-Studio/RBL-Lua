@@ -1,5 +1,9 @@
 -- Scout,Commander,Hacker,Mercenary Base,Accelerator
 -- Simplicity
+
+--[[
+
+
 VoteSkipWave(0, 0)
 AutoSkipVote()
 PlaceTower("Scout", -20.531, 1.000, -12.240)
@@ -247,3 +251,28 @@ UpgradeTower(5.726, -6.419)
 UpgradeTower(5.726, -6.419)
 UpgradeTower(5.726, -6.419)
 
+
+
+
+
+]]
+PlaceTower("Warlock", -31.012,0.970,-6.037)
+PlaceTower("Warlock", -34.509,0.970,-6.500)
+PlaceTower("Warlock", -33.001,0.970,-3.273)
+PlaceTower("Warlock", -32.320,0.970,-9.366)
+
+PlaceTower("Warlock", -35.720,0.970,-9.652)
+
+UpgradeTower(-33.001, -3.273)
+UpgradeTower(-33.001, -3.273)
+UpgradeTower(-33.001, -3.273)
+UpgradeTower(-33.001, -3.273)
+UpgradeTower(-33.001, -3.273)
+UpgradeTower(-33.001, -3.273)
+
+
+UpgradeTower(-31.012, -6.037)
+UpgradeTower(-31.012, -6.037)
+UpgradeTower(-31.012, -6.037)
+UpgradeTower(-31.012, -6.037)
+UpgradeTower(-31.012, -6.037)
