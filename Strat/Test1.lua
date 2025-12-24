@@ -1,5 +1,5 @@
--- Scout,Commander,Hacker,Mercenary Base,Accelerator
--- Simplicity
+-- Scout, Ranger, Accelerator, Engineer, DJ Booth
+-- Summer Castle
 
 --[[
 
@@ -257,6 +257,7 @@ UpgradeTower(5.726, -6.419)
 
 ]]
 VoteSkipWave(0, 0)
+AutoSkipVote()
 PlaceTower("Scout", 17.504,0.984,28.880, 250)
 PlaceTower("Scout", 14.162,0.980,28.976, 250)
 PlaceTower("Scout", 17.489,0.987,32.132, 250)
@@ -282,8 +283,12 @@ PlaceTower("DJ Booth", 10.777,0.926,13.128, 1200)
 UpgradeTower(10.777, 13.128, 300)
 UpgradeTower(10.777, 13.128, 1250)
 UpgradeTower(10.777, 13.128, 3000)
-SetTower("Track", "Green", 10.777, 13.128, 144)
-useAbility0("Drop The Beat", 10.777, 13.128, 145)
+
+--
+SetTower("Track", "Green", 10.777, 13.128, 5)
+useAbility0("Drop The Beat", 10.777, 13.128, 5)
+--
+
 PlaceTower("Scout", 11.286,0.972,24.249, 250)
 UpgradeTower(11.286, 24.249, 135)
 UpgradeTower(11.286, 24.249, 450)
@@ -307,7 +312,11 @@ PlaceTower("Scout", 8.101,0.967,23.731, 250)
 UpgradeTower(8.101, 23.731, 135)
 UpgradeTower(8.101, 23.731, 450)
 UpgradeTower(8.101, 23.731, 2092)
-useAbility0("Drop The Beat", 10.777, 13.128, 273)
+
+--
+--useAbility0("Drop The Beat", 10.777, 13.128, 273)
+--
+
 PlaceTower("Engineer", 16.626,0.975,18.385, 600)
 UpgradeTower(16.626, 18.385, 315)
 UpgradeTower(16.626, 18.385, 315)
@@ -323,23 +332,39 @@ UpgradeTower(19.849, 18.683, 315)
 UpgradeTower(19.849, 18.683, 495)
 UpgradeTower(19.849, 18.683, 2025)
 UpgradeTower(19.849, 18.683, 4275)
-useAbility0("Drop The Beat", 10.777, 13.128, 345)
+
+--
+--useAbility0("Drop The Beat", 10.777, 13.128, 345)
+--
+
 UpgradeTower(10.777, 13.128, 8000)
-useAbility0("Drop The Beat", 10.777, 13.128, 374)
+
+--
+--useAbility0("Drop The Beat", 10.777, 13.128, 374)
+--
+
 UpgradeTower(10.777, 13.128, 20000)
 UpgradeTower(16.626, 18.385, 11475)
 PlaceTower("Engineer", 19.324,0.959,15.337, 600)
 UpgradeTower(19.324, 15.337, 297)
 UpgradeTower(19.324, 15.337, 297)
 UpgradeTower(19.324, 15.337, 1912)
-useAbility0("Drop The Beat", 10.777, 13.128, 434)
+
+--
+--useAbility0("Drop The Beat", 10.777, 13.128, 434)
+--
+
 UpgradeTower(19.324, 15.337, 11475)
 PlaceTower("Ranger", 13.111,4.098,8.242, 4500)
 UpgradeTower(13.111, 8.242, 1275)
 UpgradeTower(13.111, 8.242, 3825)
 PlaceTower("Ranger", 9.830,4.067,8.532, 4500)
 UpgradeTower(9.830, 8.532, 1275)
-useAbility0("Drop The Beat", 10.777, 13.128, 464)
+
+--
+--useAbility0("Drop The Beat", 10.777, 13.128, 464)
+--
+
 UpgradeTower(9.830, 8.532, 3825)
 PlaceTower("Ranger", 6.835,4.366,7.298, 4500)
 UpgradeTower(6.835, 7.298, 1275)
@@ -351,21 +376,29 @@ UpgradeTower(14.266, 5.466, 3825)
 PlaceTower("Ranger", 11.201,4.428,5.280, 4500)
 UpgradeTower(11.201, 5.280, 1275)
 UpgradeTower(11.201, 5.280, 3825)
-useAbility0("Drop The Beat", 10.777, 13.128, 507)
+--
+--useAbility0("Drop The Beat", 10.777, 13.128, 507)
+--
 PlaceTower("Ranger", 8.003,4.537,4.400, 4500)
 UpgradeTower(8.003, 4.400, 1275)
 UpgradeTower(8.003, 4.400, 3825)
 PlaceTower("Ranger", 4.792,4.783,4.584, 4500)
 UpgradeTower(4.792, 4.584, 1275)
 UpgradeTower(4.792, 4.584, 3825)
-useAbility0("Drop The Beat", 10.777, 13.128, 534)
+
+--
+--useAbility0("Drop The Beat", 10.777, 13.128, 534)
+--
+
 PlaceTower("Engineer", 14.749,0.948,12.128, 600)
 UpgradeTower(14.749, 12.128, 467)
 UpgradeTower(14.749, 12.128, 467)
 UpgradeTower(14.749, 12.128, 1912)
 UpgradeTower(14.749, 12.128, 4037)
 UpgradeTower(14.749, 12.128, 11475)
-useAbility0("Drop The Beat", 10.777, 13.128, 561)
+--
+--useAbility0("Drop The Beat", 10.777, 13.128, 561)
+--
 UpgradeTower(17.124, 25.668, 1976)
 UpgradeTower(17.124, 25.668, 4675)
 UpgradeTower(13.959, 25.967, 4675)
@@ -392,14 +425,20 @@ UpgradeTower(4.120, 19.482, 462)
 UpgradeTower(4.120, 19.482, 462)
 UpgradeTower(4.120, 19.482, 2750)
 UpgradeTower(4.120, 19.482, 5087)
-useAbility0("Drop The Beat", 10.777, 13.128, 625)
+--
+--useAbility0("Drop The Beat", 10.777, 13.128, 625)
+--
 UpgradeTower(13.111, 8.242, 11475)
 UpgradeTower(9.830, 8.532, 11475)
 UpgradeTower(14.266, 5.466, 11475)
-useAbility0("Drop The Beat", 10.777, 13.128, 652)
+--
+--useAbility0("Drop The Beat", 10.777, 13.128, 652)
+--
 UpgradeTower(11.201, 5.280, 11475)
 UpgradeTower(8.003, 4.400, 11475)
-useAbility0("Drop The Beat", 10.777, 13.128, 688)
+--
+--useAbility0("Drop The Beat", 10.777, 13.128, 688)
+--
 UpgradeTower(4.792, 4.584, 11475)
 PlaceTower("Scout", 6.940,0.963,20.704, 250)
 UpgradeTower(6.940, 20.704, 127)
@@ -411,7 +450,7 @@ UpgradeTower(20.276, 25.551, 127)
 UpgradeTower(20.276, 25.551, 425)
 UpgradeTower(20.276, 25.551, 1976)
 UpgradeTower(20.276, 25.551, 4675)
-useAbility0("Drop The Beat", 10.777, 13.128, 715)
+--useAbility0("Drop The Beat", 10.777, 13.128, 715)
 UpgradeTower(19.849, 18.683, 11475)
 UpgradeTower(19.324, 15.337, 29750)
 UpgradeTower(16.281, 15.156, 11475)
@@ -421,32 +460,37 @@ UpgradeTower(17.798, 12.345, 297)
 UpgradeTower(17.798, 12.345, 1912)
 UpgradeTower(17.798, 12.345, 4037)
 UpgradeTower(17.798, 12.345, 11475)
-useAbility0("Drop The Beat", 10.777, 13.128, 745)
+--useAbility0("Drop The Beat", 10.777, 13.128, 745)
 UpgradeTower(13.111, 8.242, 25500)
 UpgradeTower(14.266, 5.466, 25500)
 UpgradeTower(9.830, 8.532, 25500)
-useAbility0("Drop The Beat", 10.777, 13.128, 788)
+--useAbility0("Drop The Beat", 10.777, 13.128, 788)
 UpgradeTower(4.792, 4.584, 25500)
 UpgradeTower(6.835, 7.298, 11475)
 UpgradeTower(6.835, 7.298, 25500)
-useAbility0("Drop The Beat", 10.777, 13.128, 834)
+--useAbility0("Drop The Beat", 10.777, 13.128, 834)
 UpgradeTower(11.201, 5.280, 25500)
 UpgradeTower(8.003, 4.400, 25500)
-useAbility0("Drop The Beat", 10.777, 13.128, 861)
+--useAbility0("Drop The Beat", 10.777, 13.128, 861)
 SetTower("Track", "Red", 10.777, 13.128, 868)
 UpgradeTower(16.626, 18.385, 32375)
-useAbility0("Drop The Beat", 10.777, 13.128, 888)
+--useAbility0("Drop The Beat", 10.777, 13.128, 888)
 UpgradeTower(16.281, 15.156, 32375)
-useAbility0("Drop The Beat", 10.777, 13.128, 935)
+--useAbility0("Drop The Beat", 10.777, 13.128, 935)
 UpgradeTower(17.798, 12.345, 32375)
 UpgradeTower(14.749, 12.128, 32375)
 PlaceTower("Engineer", 15.739,0.963,9.114, 600)
 PlaceTower("Accelerator", 16.100,0.965,9.093, 4500)
+
+--=======================================
+StopAutoSkipVote()
+--=======================================
+
 UpgradeTower(16.100, 9.093, 925)
 UpgradeTower(16.100, 9.093, 2312)
 UpgradeTower(16.100, 9.093, 4393)
 UpgradeTower(16.100, 9.093, 10406)
-useAbility0("Drop The Beat", 10.777, 13.128, 979)
+--useAbility0("Drop The Beat", 10.777, 13.128, 979)
 UpgradeTower(16.100, 9.093, 33300)
 PlaceTower("Accelerator", 17.402,0.979,6.316, 4500)
 UpgradeTower(17.402, 6.316, 925)
@@ -496,5 +540,5 @@ PlaceTower("Accelerator", 16.071,0.987,0.669, 4500)
 UpgradeTower(19.849, 18.683, 32375)
 UpgradeTower(19.324, 15.337, 32375)
 
-useAbility0("Drop The Beat", 10.777, 13.128, 1259)
-SetTower("Track", "Purple", 10.777, 13.128, 1321)
+--useAbility0("Drop The Beat", 10.777, 13.128, 1259)
+--SetTower("Track", "Purple", 10.777, 13.128, 1321)
