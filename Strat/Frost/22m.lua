@@ -31,7 +31,12 @@ UpgradeTower(10.777, 13.128, 3000)
 
 --
 SetTower("Track", "Green", 10.777, 13.128, 5)
-useAbility0("Drop The Beat", 10.777, 13.128, 5)
+--useAbility0("Drop The Beat", 10.777, 13.128, 5)
+AutoChainDJ(
+    {
+        {10.777, 13.128}
+    }
+)
 --
 
 PlaceTower("Scout", 11.286,0.972,24.249, 250)
@@ -41,7 +46,7 @@ PlaceTower("Scout", 11.281,0.975,27.700, 250)
 UpgradeTower(11.281, 27.700, 135)
 UpgradeTower(11.281, 27.700, 450)
 UpgradeTower(11.281, 27.700, 2092)
-useAbility0("Drop The Beat", 10.777, 13.128, 172)
+--useAbility0("Drop The Beat", 10.777, 13.128, 172)
 UpgradeTower(11.286, 24.249, 2092)
 UpgradeTower(13.959, 25.967, 2092)
 UpgradeTower(14.162, 28.976, 4950)
@@ -173,7 +178,7 @@ UpgradeTower(11.201, 5.280, 25500)
 UpgradeTower(8.003, 4.400, 25500)
 SetTower("Track", "Red", 10.777, 13.128, 5)
 UpgradeTower(16.626, 18.385, 32375)
-useAbility0("Drop The Beat", 10.777, 13.128, 753)
+--useAbility0("Drop The Beat", 10.777, 13.128, 753)
 UpgradeTower(16.281, 15.156, 32375)
 UpgradeTower(17.798, 12.345, 32375)
 UpgradeTower(14.749, 12.128, 32375)
@@ -196,7 +201,7 @@ UpgradeTower(19.318, 9.688, 925)
 UpgradeTower(19.318, 9.688, 2312)
 UpgradeTower(19.318, 9.688, 4393)
 --
-useAbility0("Drop The Beat", 10.777, 13.128, 5)
+--useAbility0("Drop The Beat", 10.777, 13.128, 5)
 --
 UpgradeTower(19.318, 9.688, 10406)
 UpgradeTower(19.318, 9.688, 33300)
@@ -210,7 +215,7 @@ PlaceTower("Accelerator", 20.577,0.988,6.524, 4500)
 UpgradeTower(20.577, 6.524, 925)
 UpgradeTower(20.577, 6.524, 2312)
 --
-useAbility0("Drop The Beat", 10.777, 13.128, 975)
+--useAbility0("Drop The Beat", 10.777, 13.128, 975)
 --
 UpgradeTower(20.577, 6.524, 10406)
 UpgradeTower(20.577, 6.524, 10406)
