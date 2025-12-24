@@ -472,7 +472,11 @@ UpgradeTower(6.835, 7.298, 25500)
 UpgradeTower(11.201, 5.280, 25500)
 UpgradeTower(8.003, 4.400, 25500)
 --useAbility0("Drop The Beat", 10.777, 13.128, 861)
-SetTower("Track", "Red", 10.777, 13.128, 868)
+--=======================================
+StopAutoSkipVote()
+--=======================================
+SetTower("Track", "Red", 10.777, 13.128, 5)
+
 UpgradeTower(16.626, 18.385, 32375)
 --useAbility0("Drop The Beat", 10.777, 13.128, 888)
 UpgradeTower(16.281, 15.156, 32375)
@@ -482,9 +486,9 @@ UpgradeTower(14.749, 12.128, 32375)
 
 PlaceTower("Accelerator", 16.100,0.965,9.093, 4500)
 
---=======================================
-StopAutoSkipVote()
---=======================================
+
+
+
 
 UpgradeTower(16.100, 9.093, 925)
 UpgradeTower(16.100, 9.093, 2312)
