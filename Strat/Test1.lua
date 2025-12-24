@@ -483,6 +483,8 @@ UpgradeTower(16.281, 15.156, 32375)
 --useAbility0("Drop The Beat", 10.777, 13.128, 935)
 UpgradeTower(17.798, 12.345, 32375)
 UpgradeTower(14.749, 12.128, 32375)
+UpgradeTower(19.849, 18.683, 32375)
+UpgradeTower(19.324, 15.337, 32375)
 
 PlaceTower("Accelerator", 16.100,0.965,9.093, 4500)
 
@@ -542,9 +544,7 @@ UpgradeTower(13.176, 2.213, 2312)
 UpgradeTower(13.176, 2.213, 4393)
 UpgradeTower(13.176, 2.213, 10406)
 UpgradeTower(13.176, 2.213, 33300)
-PlaceTower("Accelerator", 16.071,0.987,0.669, 4500)
-UpgradeTower(19.849, 18.683, 32375)
-UpgradeTower(19.324, 15.337, 32375)
+
 
 --useAbility0("Drop The Beat", 10.777, 13.128, 1259)
 --SetTower("Track", "Purple", 10.777, 13.128, 1321)
