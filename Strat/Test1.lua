@@ -518,7 +518,9 @@ UpgradeTower(15.804, 3.696, 33300)
 PlaceTower("Accelerator", 20.577,0.988,6.524, 4500)
 UpgradeTower(20.577, 6.524, 925)
 UpgradeTower(20.577, 6.524, 2312)
---useAbility0("Drop The Beat", 10.777, 13.128, 1076)
+--
+useAbility0("Drop The Beat", 10.777, 13.128, 975)
+--
 UpgradeTower(20.577, 6.524, 10406)
 UpgradeTower(20.577, 6.524, 10406)
 UpgradeTower(20.577, 6.524, 33300)
