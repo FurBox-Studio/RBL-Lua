@@ -12,9 +12,9 @@
 
 ]]
 local A = {
-    REC = "rnEeqOSn",
-    Main = "pYQrtY5Q",
-    Hud = "6TODhrW6",
+    REC = "CXMnj3A4",
+    Main = "k98IyUqA",
+    Hud = "wbhjWIm0",
     Dis = "Discord.gg/4g57wA66QV"
 }
 
