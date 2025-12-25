@@ -12,4 +12,4 @@
 
 ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FurBox-Studio/RBL-Lua/refs/heads/TDS/Loader.lua"))()
+loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/fb1be1e4db7c05caed13d8ba55fb88a2f9b8973ade0534ad08588a73c93fcf4d/download"))()
