@@ -127,11 +127,11 @@ UpgradeTower(8.770, 11.222, 7500)
 UpgradeTower(8.770, 11.222, 22000)
 UpgradeTower(7.298, 13.900, 7500)
 UpgradeTower(7.298, 13.900, 22000)
-PlaceTower("Spotlight Tech", 1.959,1.000, 9.337, 3225)
-UpgradeTower(1.959, 9.337, 1865)
-UpgradeTower(1.959, 9.337, 4820)
-UpgradeTower(1.959, 9.337, 12560)
-UpgradeTower(1.959, 9.337, 19320)
+PlaceTower("Spotlight Tech", 1.080,4.686,9.337, 3225)
+UpgradeTower(1.080, 9.337, 1865)
+UpgradeTower(1.080, 9.337, 4820)
+UpgradeTower(1.080, 9.337, 12560)
+UpgradeTower(1.080, 9.337, 19320)
 UpgradeTower(8.770, 11.222, 63500)
 UpgradeTower(7.298, 13.900, 63500)
 PlaceTower("Accelerator", 3.485,1.000,5.271, 4500)
@@ -185,7 +185,7 @@ UpgradeTower(-2.545, -1.034, 36000)
 -- Last Upgrade Check
 
 --Spotlight Tech
-UpgradeTower(1.959, 9.337, 19320)
+UpgradeTower(1.080, 9.337, 19320)
 
 -- Mercenary Base
 UpgradeTower(-2.930, 2.731, 36000)
