@@ -73,8 +73,7 @@ UpgradeTower(15.740, -4.011, 2325)
 UpgradeTower(9.896, -3.750, 2325)
 PlaceTower("Mercenary Base", -2.930,1.000,2.731, 2750)
 UpgradeTower(-2.930, 2.731, 1350)
-UpgradeTower(15.565, 2.101, 2325)
-UpgradeTower(-2.930, 2.731, 2750)
+UpgradeTower(15.565, 2.101, 2750)
 UpgradeTower(-2.930, 2.731, 7500)
 PlaceTower("Mercenary Base", -20.538,1.000,20.137, 2750)
 UpgradeTower(-20.538, 20.137, 1350)
@@ -127,7 +126,7 @@ UpgradeTower(8.770, 11.222, 7500)
 UpgradeTower(8.770, 11.222, 22000)
 UpgradeTower(7.298, 13.900, 7500)
 UpgradeTower(7.298, 13.900, 22000)
-PlaceTower("Spotlight Tech", 1.080,4.686,9.337, 3225)
+PlaceTower("Spotlight Tech", 1.959,1.000, 9.337, 3225)
 UpgradeTower(1.959, 9.337, 1865)
 UpgradeTower(1.959, 9.337, 4820)
 UpgradeTower(1.959, 9.337, 12560)
@@ -140,7 +139,7 @@ UpgradeTower(3.485, 5.271, 2500)
 UpgradeTower(3.485, 5.271, 11250)
 UpgradeTower(3.485, 5.271, 11250)
 PlaceTower("Accelerator", 3.823,1.000,2.256, 4500)
-UpgradeTower(3.823, 2.256, 2500)
+UpgradeTower(3.823, 2.256, 1000)
 UpgradeTower(3.823, 2.256, 2500)
 UpgradeTower(3.823, 2.256, 4750)
 UpgradeTower(3.823, 2.256, 11250)
@@ -179,9 +178,34 @@ UpgradeTower(0.823, 1.805, 36000)
 UpgradeTower(3.809, -0.840, 36000)
 UpgradeTower(3.736, -3.902, 36000)
 UpgradeTower(3.823, 2.256, 36000)
-UpgradeTower(0.701, -4.350, 36000)
 UpgradeTower(0.701, -1.275, 36000)
 UpgradeTower(-2.545, -1.034, 36000)
+--===================================================
+-- Last Upgrade Check
+
+--Spotlight Tech
+UpgradeTower(1.959, 9.337, 19320)
+
+-- Mercenary Base
+UpgradeTower(-2.930, 2.731, 36000)
+UpgradeTower(-20.507, 15.520, 36000)
+UpgradeTower(-20.538, 20.137, 36000)
+
+-- Hacker
+UpgradeTower(8.770, 11.222, 63500)
+UpgradeTower(7.298, 13.900, 63500)
+
+-- Accelerator
+UpgradeTower(0.823, 1.805, 36000)
+UpgradeTower(3.809, -0.840, 36000)
+UpgradeTower(3.736, -3.902, 36000)
+UpgradeTower(3.823, 2.256, 36000)
+UpgradeTower(0.701, -4.350, 36000)
+UpgradeTower(-2.545, -1.034, 36000)
+UpgradeTower(3.736, -3.902, 36000)
+UpgradeTower(3.485, 5.271, 36000)
+
+--===================================================
 useAbility3("Hologram Tower", 8.770, 11.222, 3.736, -3.902, 3.626, -7.186, 937)
 useAbility3("Hologram Tower", 7.298, 13.900, 0.701, -4.350, 0.490, -7.470, 945)
 useAbility3("Hologram Tower", 8.770, 11.222, -2.545, -1.034, -2.355, -4.106, 994)
